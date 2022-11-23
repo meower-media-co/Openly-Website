@@ -46,7 +46,9 @@ if (localStorage.getItem("darkm") == "true") {
   button.innerHTML = "<center><img style='filter: invert(1)' src = 'assets/sun.svg' style='height:6vh; width:6vh;'></img></center>";
   document.body.style.backgroundColor = "#202124";
   document.body.style.color = "#fff";
-  document.getElementById("create").style.background = "linear-gradient(180deg, #52C1FF 0%, #618dd4 100%)";
+  if (document.getElementById("create")) {
+    document.getElementById("create").style.background = "linear-gradient(180deg, #52C1FF 0%, #618dd4 100%)";
+  }
 } else {
   if (news) {
     for (let z = 0; z < news.length; z++) {
@@ -77,7 +79,9 @@ function check() {
         localStorage.setItem("darkm", "false");
         document.body.style.backgroundColor = "#fff";
         document.body.style.color = "black";
-        document.getElementById("create").style.background = "linear-gradient(180deg, #52C1FF 0%, #00F0FF 100%)";
+        if (document.getElementById("create")) {
+          document.getElementById("create").style.background = "linear-gradient(180deg, #52C1FF 0%, #00F0FF 100%)";
+        }
       } else {
         if (news) {
           for (let z = 0; z < news.length; z++) {
@@ -88,7 +92,9 @@ function check() {
         localStorage.setItem("darkm", "true");
         document.body.style.backgroundColor = "#202124";
         document.body.style.color = "#fff";
-        document.getElementById("create").style.background = "linear-gradient(180deg, #52C1FF 0%, #618dd4 100%)";
+        if (document.getElementById("create")) {
+          document.getElementById("create").style.background = "linear-gradient(180deg, #52C1FF 0%, #618dd4 100%)";
+        }
       }
       a = [];
     }
