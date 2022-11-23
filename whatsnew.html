@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>openly - code snippets</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header id="navigation">
+    <a class="active" href="https://openlynew.zedthehedgehog.repl.co"><img src="assets/logo.svg"
+        class="ilogo"></img></a>
+    <a class="nav" style="margin-left: 2.5vw;" href="/about.html">&nbsp;about</a>
+    <a class="nav" href="/whatsnew.html">changelog</a>
+    <a class="nav" href="/about.html">terms</a>
+    <a class="nav" href="/team.html">team</a>
+    <p></p>
+    <a class="login" class="nav" href="/createaccount.html">log in | sign up</a>
+  </header>
+  <div id="container">
+    <center>
+      <br>
+      <br>
+      <content>
+        <p class="title">
+          what's new on <strong><span style="color: #0eddff;">openly</span></strong><sup><span
+              style="color: #0eddff; font-weight: 250;">beta</span></sup>
+        </p>
+        <article id="news2" class="news">
+          <strong style="font-size:30px;">Teams Page?!?! and signed-in user experience</strong>
+          <br>
+          <em>11/22/2022 | zedthehedgehog and looserty</em>
+          <br>
+          <br>
+          Dark mode was improved. The signed-in user interface and experience were vastly improved upon. You can check
+          out this <a href="/home.html" style="color:blue;">here</a>. With a new <a href="team.html"
+            style="color:blue;">team page</a>. Along with changes to the scrollbar.
+
+        </article>
+        <br><br><br>
+        <article id="news1" class="news">
+          <strong style="font-size:30px;">Dark Mode! (And OAuth stuff)</strong>
+          <br>
+          <em>11/22/2022 | zedthehedgehog</em>
+          <br>
+          <br>
+          Thanks to Looserty, we now have dark mode! You can toggle it with the moon/sun button or by typing "openly".
+          We experimented with a sidebar, but that didn't work, so we now have a more optimal topbar. I also added some
+          interactive OAuth concepts that you can try out when clicking on "Connect with Meower" in the openly signup
+          page. Obviously there's no actualy OAuth and it doesn't create an account (yet). Soon we'll actually get a
+          database to store users and posts, but the Meower rewrite is kind of taking most of the spotlight so that
+          won't be for a while. Openly might take a backseat for myself soon though thanks to the CL4 port of Meower,
+          which I'll have to make a admin panel as client-side admin panels are no longer possible. Anyway enough
+          off-topic ramblings!
+        </article>
+        <br><br><br>
+        <article id="news" class="news">
+          <strong style="font-size:30px;">Initial Commit</strong>
+          <br>
+          <em>11/20/2022 | zedthehedgehog</em>
+
+          <br>
+          <br>
+          Welcome to Openly! This is the prototype of the Openly website! Come back to see updates, or check
+          #team-openly
+          to develop it <br> (I'll invite you to the repl)
+        </article>
+
+      </content>
+
+      <footer>
+        &copy; 2022 Meower Media
+        <br>
+        <a class="footerlink" style="color: gray;" href="https://github.com/meower-media-co/Openly">Openly on Github</a>
+        | <a class="footerlink" href="https://meower.org">Meower</a>
+      </footer>
+
+    </center>
+  </div>
+  <button id="theme"
+    onclick="a.push('o'), a.push('p'); a.push('e'); a.push('n'); a.push('l'); a.push('y'); check();"></button>
+  <script src="home.js"></script>
+</body>
+
+</html>

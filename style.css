@@ -1,0 +1,262 @@
+/*Main Content*/
+
+p, h1, h2, h3, h4, h5, a {
+  font-family: inter;
+}
+
+@font-face {
+   font-family: inter;
+   src: url(assets/Inter-VariableFont_slnt,wght.ttf) format("truetype")
+}
+
+body {
+  overflow-x: hidden;
+  scrollbar-color: #52C1FF #0080C8;
+}
+
+content {
+  vertical-align: middle;
+}
+
+.news {
+  padding: 30px;
+  background: #e6e6e6;
+  box-shadow: 0px 6px 0px #ababab;
+  border-radius: 10px;
+  font-family: inter;
+  width: 90vw;
+}
+
+.newsdark {
+  padding: 30px;
+  background: #4a4a4a;
+  box-shadow: 0px 6px 0px #6e6e6e;
+  border-radius: 10px;
+  font-family: inter;
+  width: 90vw;
+  /*Who all is working on this project?*/
+}
+/*the people who have access to this repl, so tnix and william*/
+
+/*Buttons*/
+
+#create {
+  background: linear-gradient(180deg, #52C1FF 0%, #00F0FF 100%);
+  width: 50vw;
+}
+
+.create-page-button {
+  background: linear-gradient(180deg, #FF7319 0%, #F9A535 100%);
+  box-shadow: 0px 6px 0px #B47625;
+  width: 20vw;
+}
+
+#theme {
+  float: left;
+  position: fixed;
+  height: 8vh;
+  width: 8vh;
+  left: 90vw;
+  top: 89vh;
+  border-radius: 10px;
+}
+
+button {
+  background: #52C1FF;
+  box-shadow: 0px 6px 0px #0080C8;
+  border-radius: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 40vw;
+  outline: none;
+  stroke: none;
+  border: none;
+  font-size: 30px;
+  color: #fff; 
+  font-family: inter;
+  cursor: pointer;
+}
+
+button:active, input:active, input:focus {
+	box-shadow: 0 0px 0;
+  transform: translateY(6px);
+  
+}
+
+input.search {
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 0px 6px 0px #0074bc;
+}
+
+input.search:active, input.search:focus{
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: none;
+}
+
+/*Create Account*/
+
+.login {
+  font-size: 1.5vw;
+  position: absolute;
+  top: 4vw;
+  left: 10px;  
+  font-family: inter;
+  text-decoration: none;
+  color: white;
+  font-weight: 300;  
+  text-shadow: 0px 4px 0px #0080C8;  
+}
+
+
+input {
+  text-align: center;
+  background: #aee2ff;
+  box-shadow: 0px 6px 0px #40bcff;
+  border-radius: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 40vw;
+  outline: none;
+  stroke: none;
+  border: none;
+  font-size: 30px;
+  color: #fff; 
+  font-family: inter;
+}
+
+/*Body Classes*/
+
+.title {
+  font-size: 2.5vw;
+}
+
+.body {
+  font-size: 1.5vw;
+  font-weight: 250;
+}
+
+.mainbody {
+  font-size: 20px;
+  font-weight: 250;
+  font-family: inter;
+}
+
+footer {
+  margin-bottom: 1vw;
+  font-family: inter;
+  color: gray;
+  margin-top: 5vh;
+}
+
+/*Links*/
+
+a.nav {
+  margin-top: 1.75vw;
+  font-family: inter;
+  text-decoration: none;
+  color: white;
+  font-weight: 180;
+  text-shadow: 0px 4px 0px #0080C8;
+}
+
+
+a:visited {
+  color: #fff;
+}
+
+a {
+  color: #fff;
+}
+  
+.footerlink {
+  color: gray;
+}
+
+.footerlink:visited {
+  color: gray;
+}
+
+li a:visited{
+  color: white;
+}
+
+/*Navigation*/
+
+header {
+  width: 100vw;
+  height: 6vw;
+  position: fixed;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  font-size: 2vw;
+  color: white;
+  list-style-type: none;
+  text-align: center;
+  padding-left: 10px;
+  overflow: hidden;
+  background-color: #009af1;
+  box-shadow: 0px 6px 0px #0074bc;
+  margin-bottom: -1vh;
+  top: 0px;
+  left: 0px;
+  border-bottom-left-radius: 2vw;
+  border-bottom-right-radius: 3vw;  
+}
+
+.ilogo {
+  position: fixed;
+  left: 5px;
+  width: 10vw;
+  height: 5vw;
+}
+
+.logo {
+  padding: 14px 14px;
+}
+
+#container {
+  margin-top: 7.5vw;
+}
+
+.quickshare {
+  padding: 30px;
+  background: #e6e6e6;
+  box-shadow: 0px 6px 0px #ababab;
+  border-radius: 10px;
+  font-family: inter;
+  width: 30vw;
+}
+
+.quicksharedark {
+  padding: 30px;
+  background: #5c5c5c;
+  box-shadow: 0px 6px 0px #ababab;
+  border-radius: 10px;
+  font-family: inter;
+  width: 30vw;
+}
+
+.qsbutton {
+  width: 20vw;
+}
+
+/*Scrollbar*/
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #505050; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #799; 
+}
