@@ -30,10 +30,10 @@ window.onload = () => {
 
 const button = document.getElementById("theme");
 let news;
-if (window.location.href == "https://openlynew.zedthehedgehog.repl.co/whatsnew.html" || window.location.href == "https://openlynew.zedthehedgehog.repl.co/team.html") {
+if (window.location.href == "https://openly.meower.org/whatsnew" || window.location.href == "https://openly.meower.org/team") {
   news = [document.getElementById("news"), document.getElementById("news1"), document.getElementById("news2")];
 }
-if (window.location.href == "https://openlynew.zedthehedgehog.repl.co/team.html") {
+if (window.location.href == "https://openly.meower.org/team") {
   news.push(document.getElementById("news3"));
 }
 
